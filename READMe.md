@@ -1,4 +1,4 @@
-**Configuring FTP Server in Multi-LAN Lab**
+# Configuring FTP Server in Multi-LAN Lab
 
 In this project, I embarked on configuring an FTP server within a
 multi-LAN environment, responding to the request of an employer. The
@@ -46,9 +46,9 @@ Installation**
       inbound rules that explicitly permitted traffic on ports 21 (FTP)
       and 990 (FTP over TLS).
 
-<img src="./media/image2.emf" style="width:6.5in;height:3.88819in" />
+<img src="./media/image2.png" style="width:6.5in;height:3.88819in" />
 
-<img src="./media/image3.emf" style="width:6.5in;height:3.90278in" />
+<img src="./media/image3.png" style="width:6.5in;height:3.90278in" />
 
 **Figure 2: Creating Firewall inbound rules with the matching TCP IP
 Protocol highlighting the specific rules added for ports 21 and 990.**
@@ -69,7 +69,7 @@ Protocol highlighting the specific rules added for ports 21 and 990.**
       each user ('Karen', 'Mark', 'Jin'), ensuring a structured
       organization.
 
-> <img src="./media/image4.emf" style="width:6.5in;height:4.275in" />
+> <img src="./media/image4.png" style="width:6.5in;height:4.275in" />
 >
 > **Figure 3. Successfully established connection with the Server on PC1
 > and retrieved the directory of the user, Karen.**
@@ -85,7 +85,7 @@ Protocol highlighting the specific rules added for ports 21 and 990.**
       Server, tailoring permissions to align with security and access
       requirements.
 
-> <img src="./media/image5.emf" style="width:6.5in;height:3.98681in" />
+> <img src="./media/image5.png" style="width:6.5in;height:3.98681in" />
 
 **Figure 4. Configuring the FileZilla Server on PC1 and Adding 3 Users
 Accounts on the Server with their assigned permissions**
@@ -108,7 +108,7 @@ Accounts on the Server with their assigned permissions**
     - Executing a file transfer, I moved the 'karen.txt' file from the
       'Karen' folder on the server to PC2 using the FileZilla client.
 
-> <img src="./media/image6.emf" style="width:6.5in;height:4.275in" />
+> <img src="./media/image6.png" style="width:6.5in;height:4.275in" />
 >
 > **Figure 5. An Example showing the transferring of karen.txt file from
 > the server to PC2**
@@ -124,9 +124,9 @@ Accounts on the Server with their assigned permissions**
     - Logging into the 'Jin' account on the FTP server, I uploaded the
       'karen.txt' file, demonstrating user-specific interactions.
 
-<img src="./media/image7.emf" style="width:6.5in;height:4.26736in" />
+<img src="./media/image7.png" style="width:6.5in;height:4.26736in" />
 
-<img src="./media/image8.emf" style="width:6.5in;height:4.26181in" />**Figure
+<img src="./media/image8.png" style="width:6.5in;height:4.26181in" />**Figure
 6. Log into the account “Jin” and uploaded the karen.txt file to the FTP
 server**
 
@@ -134,24 +134,24 @@ Additionally, the following screenshots illustrates some of the main
 procedures involved in configuring the FTP server within a multi-LAN
 environment:
 
-<img src="./media/image9.emf" style="width:6.5in;height:4.13889in" />
+<img src="./media/image9.png" style="width:6.5in;height:4.13889in" />
 
 **Figure 7. The FTP traffic using encryption through FTPS (FTP over
 TLS)**
 
-<img src="./media/image6.emf" style="width:6.5in;height:4.275in" />
+<img src="./media/image6.png" style="width:6.5in;height:4.275in" />
 
 **Figure 8. Transferring the karen.txt file from the server to PC2**
 
-<img src="./media/image4.emf" style="width:6.5in;height:4.275in" />
+<img src="./media/image4.png" style="width:6.5in;height:4.275in" />
 
 **Figure 9. Successfully established connection with the Server on PC1**
 
-<img src="./media/image2.emf" style="width:6.5in;height:3.88819in" />
+<img src="./media/image2.png" style="width:6.5in;height:3.88819in" />
 
-<img src="./media/image3.emf" style="width:6.5in;height:3.90278in" />
+<img src="./media/image3.png" style="width:6.5in;height:3.90278in" />
 
-<img src="./media/image10.emf" style="width:6.5in;height:3.89792in" />
+<img src="./media/image10.png" style="width:6.5in;height:3.89792in" />
 
 **Figure 10. Creating Firewall inbound rules to allow ports from 21
 (default for explicit FTPS) to Port 990 (default for implicit FTPS)**
